@@ -1,10 +1,15 @@
 
 import './App.css';
-
+import React from 'react';
+import { Nav } from './feature/component/Nav';
+import { Home } from './feature/view/Home';
 function App() {
   return (
-    <div className="w-screen h-screen bg-gray-900 text-white flex flex-col justify-center items-center">
-         <h1>Hi I'm Miro Ivan D. Sarte</h1>
+     
+    <div className="w-full p-5 text-white  bg-gray-900 ">
+     <Nav/>
+     <Home/>
+      
     </div>
   );
 }
