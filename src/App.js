@@ -6,7 +6,7 @@ import { Home } from './feature/view/Home';
 function App() {
   return (
      
-    <div className="w-full p-5 text-white  bg-gray-900 ">
+    <div className="w-full relative">
      <Nav/>
      <Home/>
       
