@@ -16,7 +16,7 @@ module.exports = {
         white200: "#f2f2f2",
         white500: "#f5f5f5",
         white: "#ffffff",
-        gray: "#abb2bf",
+        grey: "#abb2bf",
       },
     },
   },
